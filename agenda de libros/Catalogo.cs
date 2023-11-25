@@ -20,6 +20,7 @@ namespace agenda_de_libros
             Libro nuevoLibro = new Libro(titulo, autor, anioPublicacion);
             libros.Add(nuevoLibro);
             Console.WriteLine("Libro agregado con éxito.\n");
+
             Console.WriteLine("presione cualquier letra para volver al menu");
             Console.ReadKey();
             Console.Clear();
@@ -35,6 +36,7 @@ namespace agenda_de_libros
                 libro.MostrarInformacion();
             }
             Console.WriteLine();
+
             Console.WriteLine("presione cualquier letra para volver al menu");
             Console.ReadKey();
             Console.Clear();

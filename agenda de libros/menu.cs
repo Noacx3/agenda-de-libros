@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace agenda_de_libros
 {
+
+    //solo cree esta clase para limpiar la clase Program
     class menu {
        public static void Menu()
         {
@@ -61,6 +63,7 @@ namespace agenda_de_libros
             int anioPublicacion = int.Parse(Console.ReadLine());
 
             catalogo.AgregarLibro(titulo, autor, anioPublicacion);
+
             Console.WriteLine("presione cualquier letra para volver al menu");
             Console.ReadKey();
             Console.Clear();
@@ -71,6 +74,7 @@ namespace agenda_de_libros
             Console.Write("Ingrese el título del libro a buscar: ");
             string tituloBuscar = Console.ReadLine();
             catalogo.BuscarLibro(tituloBuscar);
+
             Console.WriteLine("presione cualquier letra para volver al menu");
             Console.ReadKey();
             Console.Clear();
