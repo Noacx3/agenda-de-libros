@@ -59,7 +59,7 @@ namespace agenda_de_libros
             Console.Write("Ingrese el autor del libro: ");
             string autor = Console.ReadLine();
 
-            Console.Write("Ingrese el año de publicación del libro: ");
+            Console.Write("Ingrese el año de publicación del libro(solo numeros): ");
             int anioPublicacion = int.Parse(Console.ReadLine());
 
             catalogo.AgregarLibro(titulo, autor, anioPublicacion);
