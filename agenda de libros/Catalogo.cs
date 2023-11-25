@@ -30,7 +30,7 @@ namespace agenda_de_libros
         public void MostrarCatalogo()
         {
 
-            Console.WriteLine("==== Catálogo de Libros ====");
+            Console.WriteLine(" ======= Catálogo de Libros =======");
             foreach (var libro in libros)
             {
                 libro.MostrarInformacion();
